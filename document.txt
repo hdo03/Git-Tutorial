@@ -1,0 +1,21 @@
+git : git 명령어 사용법 출력
+git --version : git 버전
+
+환경설정
+git config --global
+git config --global user.name hdo03
+git config --global user.email gksehrua@naver.com
+
+C드라이브에 "Education" 폴더 생성
+
+깃허브와 컴퓨터를 동기화
+
+cd C:\Education
+git clone https://github.com/hdo03/Git-Tutorial.git
+( cd : change directory )
+
+파일을 깃프로젝트로써 추가
+cd GIt-Tutorial
+git add document.txt
+git commit -m "Add Text File [document.txt]"
+git push
